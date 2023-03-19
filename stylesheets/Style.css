@@ -1,0 +1,150 @@
+/*Fontes importadas*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*Resetando HTML*/
+*{
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*h1-h6 e p*/
+h1{
+    text-align: end;
+    font-weight: 900;
+    color: #609250;
+}
+h2{
+    font-weight: 900;
+    color: #609250;
+}
+h3{
+    
+    font-weight: 900;
+    color: #609250;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.par_foot{
+    text-align: center;
+    font-weight: 400;
+    color: #619250;
+}
+
+
+/* Cabeçalho */
+header{
+    background-color: #80808063;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoprincipal{
+    text-align: left;
+}
+
+
+/* Estilizando contatos */
+nav{
+    border-radius: 5px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Estilizando as imagens do nav*/
+.facebookimg{
+    width: 25px;
+}
+.facebookimg:hover{
+    cursor: pointer;
+    background-color: #002fff;
+    border-radius: 100%;
+    transition: 2s;
+}
+.instagramimg{
+    width: 25px;
+}
+.instagramimg:hover{
+    cursor: pointer;
+    background-color: #cc00ff;
+    border-radius: 5px;
+    transition: 1s;
+}
+.youtubeimg{
+    width: 25px;
+}
+.youtubeimg:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    border-radius: 9px;
+    transition: 1s;
+}
+
+
+/* Estilizando o conteúdo principal */
+/*corpo da página*/
+.main{ 
+    height: 100%;
+    border-top: 1px solid #00000057;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+iframe{
+    align-content: center;
+    width: 100%;
+    height: 400px;
+}
+.form{
+
+    align-self: center;
+    text-align: center;
+    background-color: #ffffff;
+    width: 500px;
+    height: 350px;
+}
+form{
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    align-self: center;
+    border-radius: 0px; 
+    border: 1px solid;
+    width: 250px;
+    height: 50px;
+}
+.botaoform{
+    width: 255px;
+    border: none;
+    border-radius: 6px;
+    background-color: #609250;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.botaoform:hover{
+    border: 1px solid;
+    background-color: #ffffff;
+    color: #609250;
+    transition: 0.5s;
+}
+
+
+/*Rodapé*/
+footer{
+    gap: 30px;
+    border-top: 1px solid #00000049;
+    background-color: #80808063;
+}
